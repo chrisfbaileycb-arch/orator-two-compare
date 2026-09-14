@@ -1,11 +1,16 @@
-<div align="center">
+# The AI Forge: Orator & Director
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A cybernetic multi-agent orchestration and governance suite featuring:
+- **Orb of the Orator**: Audio-reactive canvas simulation with Web Speech voice synthesis and listening conduit.
+- **Forge Director**: Force-directed dynamic kinetic mind map canvas coordinating cognitive nodes, MCP tool adapters, and database vector streams.
+- **Inquest Diagnostic**: Multi-stage posture assessment engine with real-time architectural, governance, and security scoring.
+- **Deliverables & ZIP Export**: Export verified `SPEC.md`, `openapi.json`, `schema.sql`, `docker-compose.yml`, and `Dockerfile` bundled into an instant `.zip` download.
+- **Model Context Protocol (MCP)**: Tool benchmark testing harness measuring latency, token usage, and sandboxed JSON-RPC outputs.
+- **Verification Gate & Charter Covenant**: Cryptographic SHA-256 seal and ethical covenant agreement.
 
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Getting Started
+```bash
+npm install
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.

@@ -1,0 +1,6 @@
+{
+  "name": "The AI Forge: Orator & Director",
+  "description": "Cybernetic AI orchestration suite with Orb of the Orator, interactive Inquest diagnostic engine, Forge Director mind map, MCP tool bench, and deliverable synthesis.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

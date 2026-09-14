@@ -1,0 +1,38 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "The AI Forge Orchestration API",
+    "version": "2.4.0",
+    "description": "High-performance interface for multi-agent choreography, MCP tool invocation, and streaming voice conduit."
+  },
+  "servers": [
+    { "url": "https://forge-director.internal/api/v1", "description": "Internal Production Cluster" },
+    { "url": "http://localhost:3000/api", "description": "Local Development Node" }
+  ],
+  "paths": {
+    "/director/dispatch": {
+      "post": {
+        "summary": "Dispatch goal to Forge Director DAG",
+        "operationId": "dispatchGoal",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "directive": { "type": "string" },
+                  "timeoutMs": { "type": "integer", "default": 5000 }
+                },
+                "required": ["directive"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Goal queued and routed to cognitive DAG" }
+        }
+      }
+    }
+  }
+}
